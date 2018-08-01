@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Grait-Interaction/grait-I18njs-maker#readme",
   "bin": {
-    "grait-i18n": "./index.js"
+    "grait-I18n": "./index.js"
   },
   "dependencies": {
     "chalk": "^2.4.1",
