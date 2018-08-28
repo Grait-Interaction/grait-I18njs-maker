@@ -63,7 +63,14 @@ function writeFiles(TRANSLATIONS, translationsMap){
     }
 }
 
-download(url, 'tmp_copyDoc.csv', () => {
+if (!utils.getConfig()){ return }
+
+download(url, 'tmp_copyDoc.csv', (error) => {
+
+    if(error){
+        console.log(chalk.bgRed.yellow(error))
+        return false
+    }
 
     const TRANSLATIONS = {}
     const translationsMap = {}

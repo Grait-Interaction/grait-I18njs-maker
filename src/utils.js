@@ -18,7 +18,7 @@ const getConfig = function (){
     }
 
     console.error(chalk.red.bold('!!! No config file could be found in this directory !!!\n'))
-    return
+    return false
 }
 
 function mkdir_p(path, mode, callback, position) {
