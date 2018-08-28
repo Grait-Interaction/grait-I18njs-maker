@@ -2,7 +2,7 @@
   "name": "grait-i18njs-maker",
   "version": "1.0.0",
   "description": "Create I18n.js locale files from a google spreadsheet",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Grait-Interaction/grait-I18njs-maker#readme",
   "bin": {
-    "grait-I18n": "./index.js"
+    "grait-I18n": "./bin/index.js"
   },
   "dependencies": {
     "chalk": "^2.4.1",

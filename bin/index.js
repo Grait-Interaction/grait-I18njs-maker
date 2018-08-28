@@ -1,7 +1,7 @@
-#!/usr/bin / env node
+#!/usr/bin/env node
 const chalk = require('chalk')
-const download = require('./src/download')
-const utils = require('./src/utils')
+const download = require('../src/download')
+const utils = require('../src/utils')
 const fs = require('fs')
 const DIR = process.cwd()
 const [,, ...args] = process.argv
