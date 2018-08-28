@@ -1,36 +1,36 @@
 {
-  "name": "grait-i18njs-maker",
-  "version": "1.0.0",
-  "description": "Create I18n.js locale files from a google spreadsheet",
-  "main": "./bin/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Grait-Interaction/grait-I18njs-maker.git"
-  },
-  "keywords": [
-    "I18n",
-    "I18n.js",
-    "ReactNative",
-    "React",
-    "Native",
-    "JS",
-    "csv",
-    "spreadsheet"
-  ],
-  "author": "Grait Interaction",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Grait-Interaction/grait-I18njs-maker/issues"
-  },
-  "homepage": "https://github.com/Grait-Interaction/grait-I18njs-maker#readme",
-  "bin": {
-    "grait-I18n": "./bin/index.js"
-  },
-  "dependencies": {
-    "chalk": "^2.4.1",
-    "request": "^2.87.0"
-  }
+    "name": "grait-i18njs-maker",
+    "version": "1.0.0",
+    "description": "Create I18n.js locale files from a google spreadsheet",
+    "main": "./bin/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Grait-Interaction/grait-I18njs-maker.git"
+    },
+    "keywords": [
+        "I18n",
+        "I18n.js",
+        "ReactNative",
+        "React",
+        "Native",
+        "JS",
+        "csv",
+        "spreadsheet"
+    ],
+    "author": "Grait Interaction",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Grait-Interaction/grait-I18njs-maker/issues"
+    },
+    "homepage": "https://github.com/Grait-Interaction/grait-I18njs-maker#readme",
+    "bin": {
+        "grait-I18n": "./bin/index.js"
+    },
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "request": "^2.87.0"
+    }
 }
